@@ -1,0 +1,54 @@
+/*Importndo as fontes ao projeto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Hachi+Maru+Pop&family=Open+Sans&display=swap');
+
+:root {
+    --fonte-1: 'Luckiest Guy', cursive;
+    --fonte-2: 'Hachi Maru Pop', cursive;
+    --fonte-3: 'Exo 2', sans-serif;
+}
+
+.cabecalho {
+    padding: 10px 30px;
+    background-color: #F0FEF1;
+   
+}
+.cabecalho .logo h1 {
+    font-family: var(--fonte-2);
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+}
+
+
+.container {
+    padding: 10px 30px;
+    background: url('../images/1.png') center center no-repeat;
+    height: 588px;
+}
+
+.container .frase .titulo-frase {
+    margin-top: 50px;
+    font-family: var(--fonte-1);
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.container .frase p {
+    font-family: var(--fonte-2);
+    font-size: 2rem;
+}
+
+.rodape {
+    background-color: #009A44;
+    padding: 30px 10px;
+    text-align: center;
+    
+}
+
+.rodape p {
+    font-family: var(--fonte-3);
+    font-size: 3rem;
+    font-weight: 600;
+}
