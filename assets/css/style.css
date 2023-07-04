@@ -24,15 +24,14 @@
 
 .container {
     padding: 10px 30px;
-    background: url('../images/1.png') center center no-repeat;
-    height: 588px;
+    background: url('../images/2.png') center center no-repeat;
+    height: 399px;
 }
 
 .container .frase .titulo-frase {
     margin-top: 50px;
     font-family: var(--fonte-1);
-    font-size: 5rem;
-    margin-bottom: 10px;
+    font-size: 4rem;
 }
 
 .container .frase p {
